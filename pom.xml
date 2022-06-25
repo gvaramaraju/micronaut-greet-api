@@ -71,6 +71,11 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>io.micronaut.jaxrs</groupId>
+      <artifactId>micronaut-jaxrs-server</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>jakarta.annotation</groupId>
       <artifactId>jakarta.annotation-api</artifactId>
       <scope>compile</scope>
@@ -101,6 +106,11 @@
               <groupId>io.micronaut</groupId>
               <artifactId>micronaut-http-validation</artifactId>
               <version>${micronaut.version}</version>
+            </path>
+            <path>
+              <groupId>io.micronaut.jaxrs</groupId>
+              <artifactId>micronaut-jaxrs-processor</artifactId>
+              <version>${micronaut.jaxrs.version}</version>
             </path>
           </annotationProcessorPaths>
           <compilerArgs>
